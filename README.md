@@ -1,8 +1,6 @@
 # Blade::RailsPlugin
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/blade/rails_plugin`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Out of the box integration between Blade and Rails
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the plugin on `.blade.yml`
+
+```yaml
+plugins:
+  rails:
+    enabled: true
+```
+
+For more information on how it works, or the motivation behind this gem, check the [article](http://www.coding.com.br/rails/using-blade-javascript-runner-on-rails) I wrote and originated this one.
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/blade-rails_plugin.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fernandes/blade-rails_plugin.
 
 
 ## License
