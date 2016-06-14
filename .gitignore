@@ -9,3 +9,4 @@
 /tmp/
 /vendor/bundle
 /vendor/cache
+/test/support/log
