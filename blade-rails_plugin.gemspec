@@ -11,8 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Blade plugin to integrate with Rails}
   spec.description   = %q{Provides an out-of-the-box integration between Blade and Rails}
-  spec.homepage      = "https://github.com/fernandes/blade-rails"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/fernandes/blade-rails_plugin"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
